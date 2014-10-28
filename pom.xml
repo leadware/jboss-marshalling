@@ -43,7 +43,7 @@
 	<description>JBoss Marshalling API (Patch for JBossAS 7.1.1.Final to resolve hibernate proxy marshalling between two server instances)</description>
 	
 	<!-- Project Version -->
-	<version>1.3.16.GA</version>
+	<version>1.3.16-SNAPSHOT</version>
 	
 	<!-- Packaging -->
 	<packaging>jar</packaging>
@@ -183,17 +183,17 @@
             <dependency>
                 <groupId>org.jboss.marshalling</groupId>
                 <artifactId>jboss-marshalling</artifactId>
-                <version>${project.version}</version>
+                <version>1.3.16.GA</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.marshalling</groupId>
                 <artifactId>jboss-marshalling-river</artifactId>
-                <version>${project.version}</version>
+                <version>1.3.16.GA</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.marshalling</groupId>
                 <artifactId>jboss-marshalling-serial</artifactId>
-                <version>${project.version}</version>
+                <version>1.3.16.GA</version>
             </dependency>
 
             <!-- External -->
